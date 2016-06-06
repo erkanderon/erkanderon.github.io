@@ -1,0 +1,38 @@
+.p-container {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.p-container .project {
+    margin-bottom: 50px;
+    width: 270px;
+}
+.project-desc {
+    background-color: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-top: 2px solid #fafafa;
+}
+.project-desc .sitename {
+    float: left;
+}
+.project-desc a {
+    color: #027bff;
+    font-weight: 900;
+    margin: 2px 0 6px;
+    font-size: 14px;
+}
+
+.view {
+    height: 600px;
+}
+.project-shadow {
+
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
