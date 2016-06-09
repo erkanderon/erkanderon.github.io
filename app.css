@@ -81,4 +81,36 @@
   border: solid 2px;
   border-color: #001d66;
 }
+.what-people-are-saying {
+  background: #424242;
+  width: 40%;
+  margin: auto;
+  height: 150px;
+}
+.what-people-are-saying h2 {
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.7rem;
+  padding-top: 1.5rem;
+}
+.what-people-are-saying .altb{
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.01px;
+
+}
+.alignleft {
+  float: left;
+  margin-left: 150px;
+}
+.alignright {
+  float: right;
+  margin-right: 150px;
+}
+
 
