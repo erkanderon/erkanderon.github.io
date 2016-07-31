@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="portfolio/portfolio.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -32,65 +33,54 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div id="site-center"></div>
-  <div class="wrapper">
-    <div id="header">
-      <a href="#home"> <div class="home">ERKAN ÇETİNKAYA</div></a>
-      <div class="bar">
-        <div class="div1">
-          <a href="#/home" class="home2">About Me</a>
-        </div>
-        <div class="div1">
-          <a href="#/portfolio" class="home2">Portfolio</a>
-        </div>
-        <div class="div1">
-          <a href="#/cv" class="home2">Resume</a>
-        </div>
-      </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ERKAN CETİNKAYA</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#/home">HOME</a>
+        </li>
+        <li>
+          <a href="#/portfolio">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="#/cv">RESUME</a>
+        </li>
+      </ul>
+
     </div>
   </div>
+</nav>
+
+
+
 
   <div class="clear"></div>
   <div class="clear"></div>
 
   <div ng-view class="view"></div>
 
-  <div class="clear"></div>
-
-  <footer class="footer">
-    <div class="row full-width">
-      <div class="col-md-4">
-        <i class="fa fa-laptop"></i>
-        <p><h4>Navigation</h4></p>
-        <ul class="footer-links">
-          <li><a href="#/home">Home</a></li>
-          <li><a href="#/portfolio">My Works</a></li>
-          <li><a href="#/cv">CV</a></li>
-
-        </ul>
-
-      </div>
-      <div class="col-md-4">
-        <i class="fa fa-html5"></i>
-        <p><h4>Useful Links</h4></p>
-        <ul class="footer-links">
-          <li><a href="https://www.python.org/">Python.org</a></li>
-          <li><a href="https://developer.android.com/index.html">Android</a></li>
-          <li><a href="https://angularjs.org/">AngularJS</a></li>
-
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <p><h4>Contact With Me</h4></p>
-        <ul class="footer-links">
-          <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> erkan.cetinkaya3@gmail.com</a></li>
-          <li><a href="https://github.com/erkanderon"><img src="photos/github1.png"></a></li>
-          <li><a href="https://www.linkedin.com/in/erkan-%C3%A7etinkaya-9a03b66b?trk=hp-identity-name"><img src="photos/link1.png"></a></li>
-
-        </ul>
-      </div>
+  
+  <div class="wrapper-footer">
+    <div class="containerfoot">
+      <footer class="footer">
+        <a href="https://github.com/erkanderon"><img src="photos/github.svg" class="svg-icon"></img></a>
+        <a href="https://tr.linkedin.com/in/erkan-çetinkaya-9a03b66b
+"><img src="photos/linkedin.png" class="svg-icon"></img></a>
+        <a href="#"><img src="photos/mail-icon.png" class="svg-icon"></img></a>
+        <a href="https://twitter.com/erkancetinkaya9"><img src="photos/twt.png" class="svg-icon"></img></a>
+      </footer>
     </div>
-  </footer>
+  </div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
