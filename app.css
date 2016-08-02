@@ -113,4 +113,9 @@
   float: right;
   margin-right: 150px;
 }
+#navindex {
+  font-size: 2.5vmin;
+  
+  text-align: justify;
+}
 
