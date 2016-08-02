@@ -60,3 +60,6 @@ p {
     bottom: 0;
     width: 100%;
 }
+.carousel-indicators{
+  bottom: 100px;
+}
