@@ -47,7 +47,7 @@ h1 {
   font-size: 5.9vw;
 }
 h2 {
-  font-size: 3.0vmin;
+  font-size: 3.5vmin;
 }
 p {
   font-size: 2vmin;
@@ -56,7 +56,7 @@ p {
 }
 #footer {
     position: fixed;
-    height: 11%;
+    height: 12%;
     bottom: 0;
     width: 100%;
 }
