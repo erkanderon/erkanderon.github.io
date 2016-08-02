@@ -80,6 +80,7 @@
 .navbor{
   border: solid 2px;
   border-color: #001d66;
+  position: absolute;
 }
 .what-people-are-saying {
   background: #424242;

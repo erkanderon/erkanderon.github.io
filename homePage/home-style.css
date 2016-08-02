@@ -40,6 +40,17 @@ footer {
 }
 
   p {
-  color:              #fff;
+  color:              black;
   font-size:          1em;
+}
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vmin;
+}
+p {
+  font-size: 2vmin;
+  color: black;
+  text-align: justify;
 }
