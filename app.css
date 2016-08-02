@@ -80,7 +80,6 @@
 .navbor{
   border: solid 2px;
   border-color: #001d66;
-  position: absolute;
 }
 .what-people-are-saying {
   background: #424242;
@@ -117,5 +116,8 @@
   font-size: 2.5vmin;
   
   text-align: justify;
+}
+.carousel-indicators{
+  bottom: 100px;
 }
 
