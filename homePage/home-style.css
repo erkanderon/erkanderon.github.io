@@ -46,14 +46,17 @@ footer {
 h1 {
   font-size: 5.9vw;
 }
-h2 {
-  font-size: 3.5vmin;
+h3 {
+  font-size: 2.7vmin;
+  font-family: Arial, sans-serif;
+  color: #666;
 }
-p {
-  font-size: 2vmin;
-  color: black;
-  text-align: justify;
+p{
+  font-size: 2.7vmin;
+  font-family: Arial, sans-serif;
+  color: #666;
 }
+
 #footer {
     position: fixed;
     height: 12%;
@@ -62,4 +65,113 @@ p {
 }
 .carousel-indicators{
   bottom: 100px;
+}
+.cont{
+  width: 60%;
+  height: 50%;
+  margin: 0px 20%;
+}
+.portfolio{
+  height: 400px;
+    position: relative;
+    top: 20px;
+    width: 100%;
+  background: url('../photos/bycycles.jpeg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.portfolio .content{
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 180px;
+    width: 70%;
+}
+.portfolio .content h1{
+    color: #6c4826;
+    font-family: 'Impact', sans-serif;
+    font-weight: normal;
+    font-size: 8.0vw;
+    line-height: 5vw;
+    padding: 1.2vw 1.2vw;
+    text-align: center;
+}
+.description{
+    color: #7471cd;
+    font-size: 3vmin;
+    margin-bottom: 10px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.known-tech{
+
+  border: dotted 1px;
+  border-color: orange;
+}
+/* Portfolio CSS  */
+.p-container {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.p-container .project {
+    margin-bottom: 50px;
+    
+    max-height: 400px;
+}
+.project-desc {
+    background-color: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-top: 2px solid #fafafa;
+    height: 120px;
+}
+.project-desc .sitename {
+    
+    text-align: center;
+}
+.project-desc a {
+    color: #027bff;
+    font-weight: 900;
+    margin: 2px 0 6px 0px ;
+    font-size: 14px;
+    
+}
+.project img{
+
+  height: 150px;
+
+}
+
+.view {
+    height: 600px;
+}
+.project-shadow {
+
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.backtry{
+  background: url('../photos/myPhoto2.jpg')no-repeat center;
+  background-size: 250px;
+}
+.backtry2{
+  background: url('../photos/angularjscodingtutorials.jpg')no-repeat center;
+  background-size: 250px;
+}
+.backtry3{
+  background: url('../photos/drag-and.jpg')no-repeat center;
+  background-size: 150px;
+  width: 250px;
+}
+.project-desc p{
+    color: #7471cd;
+    font-size: 2vmin;
+    
+    font-family: Arial, Charcoal, sans-serif;
 }

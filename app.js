@@ -11,12 +11,6 @@ config(['$routeProvider', function($routeProvider) {
         redirectTo: '/home',
         templateUrl: "homePage/home-page-template.html"
       })
-      .when('/portfolio',{
-          templateUrl: "portfolio/portfolio-template.html"
-      })
-      .when('/cv',{
-          templateUrl: "CV/CV.html"
-      })
       .otherwise({
         redirectTo: '/home',
         templateUrl: "homePage/home-page-template.html"
