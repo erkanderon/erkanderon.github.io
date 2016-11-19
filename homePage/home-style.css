@@ -18,25 +18,46 @@
 
 .wrapper-footer {
     margin-top: auto;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    background-color: #eee;
+    background-opacity: 0;
 }
 .containerfoot {
     margin: 0 auto;
     max-width: 740px;
     padding: 0 10px;
     width: 100%;
+
 }
 footer {
     padding: 20px 0;
     text-align: center;
+    background-opacity: 0;
 }
 
 .svg-icon {
     width: 40px;
     height: 40px;
     display: inline-block;
+}
+.up-icon {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+
+
+}
+.up-icon:hover{
+  width: 80px;
+    height: 80px;
+    display: block;
+    position: fixed;
+    bottom: 102px;
+    right: 15px;
+}
+#buttonTop{
+  opacity: 0;
 }
 
   p {
@@ -89,10 +110,10 @@ p{
     width: 70%;
 }
 .portfolio .content h1{
-    color: #6c4826;
-    font-family: 'Impact', sans-serif;
+    color: #FFFFFF;
+    font-family: 'Arial Black', sans-serif;
     font-weight: normal;
-    font-size: 8.0vw;
+    font-size: 7.0vw;
     line-height: 5vw;
     padding: 1.2vw 1.2vw;
     text-align: center;
